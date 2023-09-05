@@ -357,7 +357,7 @@
     "delete": {
       "button": "Delete Account",
       "title": "Delete Account",
-      "text": "Are you sure you want to delete your account? This action cannot be undone. Your user data and all of your reviews, comments, articleposts will be deleted."
+      "text": "Are you sure you want to delete your account? This action cannot be undone. Your user data and all of your reviews, comments, articles will be deleted."
     }
   },
   "article": {
@@ -381,7 +381,7 @@
     },
     "results": {
       "header_one": "{{searchQuery}}: {{count}} articlepost",
-      "header_other": "{{searchQuery}}: {{count}} articleposts",
+      "header_other": "{{searchQuery}}: {{count}} articles",
       "verificationInfo": "All users are have the opportunity to verify themselves on our platform, thereby enhancing and emphasizing the authenticity of article posts, ratings, and comments. Verified users can be identified by their distinct tags.",
       "filters": {
         "topTitle": "Filters",

@@ -6,7 +6,7 @@ const articleSchema = z.object({
   urlToImage: z.string().nullable(),
   url: z.string(),
   title: z.string(),
-  description: z.string(),
+  description: z.string().nullable(),
   content: z.string(),
   author: z.string().nullable(),
 });
