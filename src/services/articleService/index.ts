@@ -5,13 +5,6 @@ import { schemaForType } from "@common/functions";
 import { Article } from "@model";
 
 const NEWS_API_URL = "https://newsapi.org/v2";
-
-const getArticle = async (id: string) => {
-  const { data } = await axiosClient.get(`/api/article/${id}`);
-
-  return data;
-};
-
 const NEWS_API_KEY = "53387252e8004a36a54098082dc1a6ef";
 
 interface Response {
@@ -37,6 +30,5 @@ const getArticles = async ({ searchTerm = "" }) => {
 };
 
 export const articleService = {
-  getArticle,
   getArticles,
 };

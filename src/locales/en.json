@@ -1,7 +1,6 @@
 {
   "common": {
     "continue": "Continue",
-    "verifiedUser": "Verified User",
     "verifiedPartner": "Verified Partner",
     "registration": "Registration",
     "verified": "verified",
@@ -298,13 +297,6 @@
         "email": "Email",
         "password": "Password",
         "profilePicture": "Profile Picture"
-      },
-      "verification": {
-        "title": "Verification",
-        "disabilityCard": "Disability Card",
-        "verifiedAccount": "Verified Account",
-        "verifiedUser": "Verified User",
-        "notVerified": "Not verified yet"
       }
     },
     "modal": {

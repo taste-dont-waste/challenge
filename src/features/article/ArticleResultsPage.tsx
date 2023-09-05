@@ -67,11 +67,6 @@ export const ArticleResultsPage = () => {
             })}
           </Typography>
         </Stack>
-        <ChallengeAlert
-          title={t("common.verifiedUser")}
-          text={t("article.results.verificationInfo")}
-          severity="success"
-        />
         <Box display="flex" justifyContent="flex-end">
           <SortingMenu values={ARTICLE_SORTING_VALUES} onSelect={setSort} />
         </Box>
