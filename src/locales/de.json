@@ -1,0 +1,532 @@
+{
+  "common": {
+    "continue": "Weiter",
+    "verifiedUser": "Verifizierter Benutzer",
+    "verifiedPartner": "Verifizierter Partner",
+    "registration": "Registrierung",
+    "verified": "verifiziert",
+    "edit": "Bearbeiten",
+    "signUp": "Anmelden",
+    "save": "Speichern",
+    "apply": "Anwenden",
+    "cancel": "Abbrechen",
+    "delete": "Löschen",
+    "accessibilityAmenities": {
+      "elevatedWc": "Erhöhtes WC",
+      "wcWithHandles": "WC mit Griffen",
+      "groundLevelShower": "Bodenebene Dusche",
+      "loweredSink": "Abgesenktes Waschbecken",
+      "emergencyCord": "Notrufleine",
+      "grabBars": "Haltegriffe",
+      "rampAccess": "Rampe Zugang",
+      "wheelchairAccessibleEntrance": "Rollstuhlgerechter Eingang",
+      "accessibleParking": "Barrierefreier Parkplatz",
+      "automaticDoors": "Automatische Türen",
+      "brailleSignage": "Brailleschrift Beschilderung",
+      "wideHallways": "Breite Flure",
+      "handrails": "Handläufe",
+      "accessibleElevator": "Barrierefreier Aufzug"
+    },
+    "applyFilter": "Filter anwenden",
+    "reviews": {
+      "title": "Bewertungen",
+      "writeReview": "Eine Bewertung schreiben",
+      "postReview": "Bewertung abschicken",
+      "rating": "Bewertung*",
+      "ratingHint": "Achtung: Der Standardwert ist auf 5 eingestellt",
+      "comment": "Kommentar*",
+      "missingComment": "Bitte geben Sie einen Kommentar ein!",
+      "ratingCount_one": "({{count}} Bewertung)",
+      "ratingCount_other": "({{count}} Bewertungen)"
+    },
+    "filters": {
+      "accessibilityTitle": "Barrierefreie Filter",
+      "otherTitle": "Andere Filter",
+      "rating": {
+        "6": "Ordentlich: 6",
+        "7": "Gut: 7",
+        "8": "Sehr gut: 8",
+        "9": "Ausgezeichnet: 9",
+        "10": "Perfekt: 10"
+      }
+    },
+    "sorting": {
+      "label": "Sortieren nach",
+      "rating": "Bewertung",
+      "name": "Name",
+      "stars": "Sterne",
+      "title": "Titel",
+      "author": "Autor",
+      "createdAt": "Erstellt am"
+    },
+    "noHighlights": "Bisher keine Highlights verfügbar",
+    "noReviews": "Bisher keine Bewertungen verfügbar",
+    "showMore": "Mehr anzeigen",
+    "showLess": "Weniger anzeigen",
+    "moreImages": "Weitere Bilder",
+    "city": {
+      "munich": "München",
+      "berlin": "Berlin",
+      "frankfurt": "Frankfurt",
+      "cologne": "Köln",
+      "hamburg": "Hamburg",
+      "stuttgart": "Stuttgart"
+    },
+    "email": "E-Mail",
+    "password": "Passwort",
+    "search": "Suchen",
+    "highlights": "Highlights"
+  },
+  "app": {
+    "pages": {
+      "explore": "Entdecken",
+      "train": "Zug",
+      "hotel": "Hotel",
+      "restaurant": "Restaurant",
+      "article": "Article"
+    }
+  },
+  "login": {
+    "submit": "Einloggen"
+  },
+  "registration": {
+    "firstName": "Vorname",
+    "surname": "Nachname",
+    "password": "Passwort",
+    "reEnterPassword": "Passwort erneut eingeben",
+    "verification": {
+      "title1": "Verifizierung - Schwerbehindertenausweis (optional)",
+      "title2": "Verifizierung - Selfie (optional)",
+      "infoDisabilityCard": "Bitte laden Sie ein Bild Ihres Schwerbehindertenausweises hoch, damit wir Ihr Profil verifizieren und gemeinsam eine vertrauenswürdige Community aufbauen können.",
+      "infoSelfie": "Um die Authentizität Ihres Schwerbehindertenausweises zu gewährleisten, geben Sie bitte ein Selfie an."
+    },
+    "submit": "Registrieren",
+    "errors": {
+      "firstNameRequired": "Sie müssen einen Vornamen angeben",
+      "surnameRequired": "Sie müssen einen Nachnamen angeben",
+      "emailEmpty": "Sie müssen eine E-Mail-Adresse angeben, um ein Konto zu erstellen",
+      "emailNotValid": "Dies scheint keine gültige E-Mail-Adresse zu sein",
+      "passwordRequired": "Sie müssen ein Passwort angeben",
+      "reEnterPasswordRequired": "Bitte geben Sie Ihr gewähltes Passwort erneut ein",
+      "passwordMismatch": "Die Passwörter stimmen nicht überein",
+      "passwordTooShort": "Das Passwort muss mindestens 8 Zeichen lang sein",
+      "passwordNoDigit": "Das Passwort muss mindestens eine Ziffer enthalten",
+      "passwordNoLetter": "Das Passwort muss mindestens einen Buchstaben enthalten"
+    }
+  },
+  "explore": {
+    "banner": {
+      "accessible": "Barrierefrei",
+      "inclusive": "Inklusiv",
+      "convenient": "Bequem",
+      "inspiring": "Inspirierend"
+    },
+    "article": {
+      "title": "Trendige Articlebeiträge",
+      "subtitle": "Lassen Sie sich von anderen Abenteurern inspirieren."
+    },
+    "partners": {
+      "title": "Unsere Partner",
+      "subtitle": "Um Ihnen das beste Erlebnis zu bieten, haben wir uns mit wichtigen Akteuren zusammengeschlossen.",
+      "Deutsche Bahn": {
+        "description": "Die Deutsche Bahn AG ist Deutschlands Bundesverkehrs- und Transportunternehmen. Die Züge der DB bedienen täglich 5.400 Bahnhöfe. Allerdings sind nur 60 % davon vollständig barrierefrei zugänglich.",
+        "ourOffer": "Unser Zugverbindungsalgorithmus nutzt nur barrierefreie Bahnhöfe und ermöglicht längere Transferzeiten, um eine zugänglichere und komfortablere Reise für alle zu gewährleisten.",
+        "offerTitle": "Barrierefreier Verbindungsalgorithmus"
+      },
+      "Tripadvisor": {
+        "description": "Tripadvisor ist eine Bewertungsplattform für Restaurants. In Deutschland enthält sie Testimonials zu über 1 Million Restaurants.",
+        "ourOffer": "Wir haben die Zugänglichkeit der Restaurants, die wir Ihnen vorschlagen, persönlich überprüft. Auf diese Weise können Sie sich voll und ganz auf das konzentrieren, was zählt: den Moment.",
+        "offerTitle": "Verifizierte barrierefreie Restaurants"
+      }
+    },
+    "hotels": {
+      "title": "Top-Hotels für Sie in",
+      "generic": {
+        "subtitle": "Spannende Hotels mit geprüften Annehmlichkeiten"
+      },
+      "personalized": {
+        "subtitle": "Persönliche Empfehlungen entsprechend Ihrer Vorlieben."
+      }
+    },
+    "restaurants": {
+      "title": "Top-Restaurants für Sie in {{city}}",
+      "generic": {
+        "subtitle": "Delikate Restaurants mit geprüften Annehmlichkeiten"
+      },
+      "personalized": {
+        "subtitle": "Persönliche Empfehlungen entsprechend Ihrer Vorlieben."
+      }
+    },
+    "destinations": {
+      "title": "Beliebte Reiseziele",
+      "subtitle1": "Schnelle",
+      "subtitleHighlight": "barrierefreie",
+      "subtitle2": "Verbindungen direkt zur Hand"
+    },
+    "offering": {
+      "train": {
+        "text1": "Suchen und vergleichen Sie",
+        "highlight": "barrierefreie",
+        "text2": "Zugverbindungen.",
+        "button": "Zugverbindungen finden"
+      },
+      "hotel": {
+        "text1": "Stöbern Sie in einer Auswahl von",
+        "highlight": "barrierefreien",
+        "text2": "Hotels.",
+        "button": "Hotels finden"
+      },
+      "restaurant": {
+        "text1": "Finden Sie eine kulinarische Auswahl von",
+        "highlight": "barrierefreien",
+        "text2": "Restaurants.",
+        "button": "Restaurants finden"
+      },
+      "article": {
+        "text1": "Lassen Sie sich von",
+        "highlight": "authentischen",
+        "text2": "Articlebeiträgen unserer Community inspirieren.",
+        "button": "Articlebeiträge durchsuchen"
+      }
+    }
+  },
+  "hotel": {
+    "amenities": {
+      "swimmingPool": "Schwimmbad",
+      "bar": "Bar",
+      "parkingLots": "Parkplätze",
+      "fitnessCenter": "Fitnesscenter",
+      "wifi": "WLAN",
+      "restaurant": "Restaurant"
+    },
+    "verificationInfo": "Alle barrierefreien Merkmale unserer Partner werden gründlich geprüft, um einen schnellen und angenehmen Aufenthalt für alle unsere Kunden zu gewährleisten.",
+    "searchLabel": "Hotelsuche",
+    "results": {
+      "filters": {
+        "accessibilityAmenities": "Barrierefreiheit des Hotels / Zimmers",
+        "amenities": "Annehmlichkeiten",
+        "stars": "Sterne",
+        "star_one": "{{count}} Stern",
+        "star_other": "{{count}} Sterne",
+        "rating": "Bewertung",
+        "verifiedOnly": "Nur verifizierte"
+      },
+      "header_one": "{{searchQuery}}: {{count}} Hotel",
+      "header_other": "{{searchQuery}}: {{count}} Hotels"
+    },
+    "details": {
+      "inquireNow": "Jetzt anfragen"
+    },
+    "overview": {
+      "title": "Suchen Sie eine barrierefreie Unterkunft?",
+      "searchLabel": "Suchen Sie nach einem Hotel in Ihrem Reiseziel...",
+      "popularDestinationsTitle": "Beliebte Reiseziele",
+      "popularDestinationsSubtitle": "Erkunden Sie die besten barrierefreien Hotels in den größten Städten Deutschlands!"
+    }
+  },
+  "restaurant": {
+    "verificationInfo": "Alle barrierefreien Merkmale unserer Partner werden gründlich geprüft, um einen schnellen und angenehmen Aufenthalt für alle unsere Kunden zu gewährleisten.",
+    "searchLabel": "Restaurantsuche",
+    "cuisine": {
+      "title": "Küche:",
+      "bavarian": "Bayerisch",
+      "german": "Deutsch",
+      "italian": "Italienisch",
+      "greek": "Griechisch",
+      "indian": "Indisch",
+      "chinese": "Chinesisch",
+      "thai": "Thailändisch",
+      "french": "Französisch",
+      "spanish": "Spanisch",
+      "turkish": "Türkisch",
+      "vietnamese": "Vietnamesisch",
+      "japanese": "Japanisch",
+      "american": "Amerikanisch",
+      "mexican": "Mexikanisch",
+      "african": "Afrikanisch",
+      "other": "Andere",
+      "missing": "Keine Küche festgelegt"
+    },
+    "overview": {
+      "title": "Suchen Sie ein barrierefreies Restaurant?",
+      "searchLabel": "Suchen Sie nach einem Restaurant in Ihrem Reiseziel...",
+      "popularDestinationsTitle": "Beliebte Reiseziele",
+      "popularDestinationsSubtitle": "Erkunden Sie die besten barrierefreien Restaurants in den größten Städten Deutschlands!"
+    },
+    "results": {
+      "filters": {
+        "accessibilityAmenities": "Barrierefreiheit des Restaurants",
+        "rating": "Bewertung",
+        "cuisines": "Küchen",
+        "verifiedOnly": "Nur verifizierte"
+      },
+      "header_one": "{{searchQuery}}: {{count}} Restaurant",
+      "header_other": "{{searchQuery}}: {{count}} Restaurants"
+    },
+    "details": {
+      "inquireNow": "Jetzt anfragen"
+    }
+  },
+  "profile": {
+    "profile": "Profil",
+    "login": "Anmelden",
+    "logout": "Abmelden",
+    "register": "Registrieren",
+    "searchHistory": {
+      "title": "Suchverlauf",
+      "subtitle": "Ihre letzten Suchanfragen werden hier angezeigt"
+    },
+    "yourReviews": "Ihre Bewertungen",
+    "reviewsSubtitle": "Ihre letzten Bewertungen werden hier angezeigt",
+    "verification": {
+      "title": "Verifizierung",
+      "subtitle": "Hier finden Sie weitere Details zu unserem Verifizierungsprozess"
+    },
+    "personalDetail": {
+      "title": "Nutzerdaten",
+      "alertTitleLoading": "Hoppla..",
+      "alertTextLoading": "Warten Sie, bis Ihre Daten geladen werden",
+      "alertTitleError": "Fehler beim Laden",
+      "alertTextError": "Etwas ist schiefgelaufen. Versuchen Sie die Seite neu zu laden",
+      "travelersDetail": {
+        "basicInfo": "Grundlegende Informationen",
+        "firstName": "Vorname",
+        "surname": "Nachname",
+        "dob": "Geburtsdatum",
+        "dobNotSpecified": "Geburtsdatum nicht angegeben",
+        "address": "Adresse",
+        "email": "E-Mail",
+        "password": "Passwort",
+        "profilePicture": "Profilbild"
+      },
+      "verification": {
+        "title": "Verifizierung",
+        "disabilityCard": "Behindertenausweis",
+        "verifiedAccount": "Verifiziertes Konto",
+        "verifiedUser": "Verifizierter Benutzer",
+        "notVerified": "Noch nicht verifiziert"
+      }
+    },
+    "modal": {
+      "title": "BEARBEITEN",
+      "street": "Straße",
+      "number": "Hausnummer",
+      "zipCode": "Postleitzahl",
+      "city": "Stadt",
+      "country": "Land",
+      "uploadBox": {
+        "subTitleDelete": "Vielen Dank für das Verifizieren Ihres Accounts.",
+        "titleNew": "Ihre Verifizierung läuft derzeit.",
+        "subTitleNew": "Sie erhalten eine Benachrichtigung per E-Mail, wenn sich der Status ändert.",
+        "titleNotVerified": "Sie sind noch kein verifizierter Benutzer.",
+        "subTitleNotVerified": "Laden Sie ein kombiniertes Bild mit einem Behindertenausweis und einem Selfie hoch, um ein verifizierter Benutzer zu werden.",
+        "learnMore": "Mehr erfahren"
+      },
+      "errors": {
+        "emailEmpty": "E-Mail darf nicht leer sein",
+        "emailNotValid": "E-Mail ist ungültig",
+        "firstNameEmpty": "Vorname darf nicht leer sein",
+        "surnameEmpty": "Nachname darf nicht leer sein",
+        "userNotOldEnough": "Sie müssen älter als 14 Jahre sein",
+        "userBornTomorrow": "Sie können nicht in der Zukunft geboren sein",
+        "userTooOld": "Sie können nicht vor 1900 geboren sein",
+        "yearTooLong": "Die angegebene Jahreszahl ist zu lang",
+        "passwordShort": "Übersetzte Meldung",
+        "zipCodeNotNumber": "{{value}} ist keine Nummer",
+        "noStreetName": "{{value}} scheint keine echte Straße zu sein",
+        "noCityName": "{{value}} scheint nicht der Name einer echten Stadt zu sein",
+        "zipCodeNotCorrect": "{{value}} ist zu lang für eine Postleitzahl"
+      }
+    },
+    "preferences": {
+      "title": "Präferenzen",
+      "settings": {
+        "smallTitle": "Einstellungen",
+        "bahnCard": "BahnCard",
+        "newsletter": "Newsletter",
+        "labelNewsletter": "Abonnieren Sie unseren Newsletter",
+        "notifications": "Benachrichtigungen",
+        "notificationsLabel": "Erhalten Sie E-Mails mit besonderen Reiseangeboten entsprechend Ihrer persönlichen Vorlieben"
+      },
+      "amenities": {
+        "important": "Ihre wichtigen",
+        "verified": "verifizierten",
+        "amenities": "barrierefreien Annehmlichkeiten"
+      }
+    },
+    "delete": {
+      "button": "Konto löschen",
+      "title": "Konto löschen",
+      "text": "Sind Sie sicher, dass Sie Ihr Konto löschen möchten? Dieser Vorgang kann nicht rückgängig gemacht werden. Ihre Benutzerdaten sowie alle Ihre Bewertungen, Kommentare und Articlebeiträge werden gelöscht."
+    }
+  },
+  "article": {
+    "overview": {
+      "createPost": "Articlebeitrag erstellen",
+      "slogan": "Lassen Sie sich von den Reiseerfahrungen anderer Abenteurer inspirieren...",
+      "searchLabel": "Suche...",
+      "trending": "Trendige Articlebeiträge",
+      "recent": "Neueste Beiträge"
+    },
+    "createPost": {
+      "title": "Titel",
+      "destination": "Reiseziel",
+      "text": "Text",
+      "topics": "Themen",
+      "bannerImage": {
+        "title": "Bannerbild *",
+        "info": "Bitte laden Sie ein Bannerbild hoch."
+      },
+      "publish": "Veröffentlichen"
+    },
+    "results": {
+      "header_one": "{{searchQuery}}: {{count}} Articlebeitrag",
+      "header_other": "{{searchQuery}}: {{count}} Articlebeiträge",
+      "verificationInfo": "Alle Benutzer haben die Möglichkeit, sich auf unserer Plattform zu verifizieren und dadurch die Authentizität von Articlebeiträgen, Bewertungen und Kommentaren zu betonen und zu verbessern. Verifizierte Benutzer sind an ihren besonderen Tags erkennbar.",
+      "filters": {
+        "topTitle": "Filter",
+        "topicsTitle": "Themen",
+        "destinationsTitle": "Reiseziele"
+      }
+    },
+    "details": {
+      "published": "Veröffentlicht",
+      "commentBoxPlaceholder": "Was denken Sie?",
+      "comments": "Kommentare",
+      "comment": "Kommentar",
+      "commentValidation": "Bitte geben Sie einen Kommentar ein.",
+      "readingTime": "Lesezeit: {{readingTime}} Min",
+      "delete": {
+        "title": "Sind Sie sicher?",
+        "text": "Dies kann nicht rückgängig gemacht werden! Dadurch werden der Articlebeitrag und alle Kommentare dauerhaft gelöscht."
+      },
+      "tags": {
+        "city": "Stadt",
+        "trainTravel": "Zugreise",
+        "hotel": "Hotel",
+        "restaurant": "Restaurant",
+        "adventure": "Abenteuer",
+        "countrySide": "Landseite",
+        "hamburg": "Hamburg",
+        "munich": "München",
+        "berlin": "Berlin",
+        "frankfurt": "Frankfurt",
+        "stuttgart": "Stuttgart",
+        "freiburg": "Freiburg",
+        "dortmund": "Dortmund",
+        "leipzig": "Leipzig",
+        "other": "Andere"
+      }
+    },
+    "topics": {
+      "trainTravel": "Zugreise",
+      "city": "Stadt",
+      "hotel": "Hotel",
+      "restaurant": "Restaurant",
+      "adventure": "Abenteuer",
+      "countrySide": "Landseite",
+      "other": "Andere"
+    },
+    "destinations": {
+      "hamburg": "Hamburg",
+      "munich": "München",
+      "berlin": "Berlin",
+      "frankfurt": "Frankfurt",
+      "stuttgart": "Stuttgart",
+      "freiburg": "Freiburg",
+      "dortmund": "Dortmund",
+      "leipzig": "Leipzig",
+      "other": "Andere"
+    }
+  },
+  "train": {
+    "bahnCard": {
+      "noBahnCard": "keine BahnCard",
+      "bahnCardSecond25": "BahnCard 25 2. Klasse",
+      "bahnCardSecond50": "BahnCard 50 2. Klasse",
+      "bahnCardSecond100": "BahnCard 100 2. Klasse",
+      "bahnCardFirst25": "BahnCard 25 1. Klasse",
+      "bahnCardFirst50": "BahnCard 50 1. Klasse",
+      "bahnCardFirst100": "BahnCard 100 1. Klasse"
+    },
+    "travelClass": {
+      "first": "1. Klasse",
+      "second": "2. Klasse"
+    },
+    "algorithmBanner": {
+      "title": "Barrierefreier Verbindungsalgorithmus",
+      "text": "Unser Zugverbindungsalgorithmus wurde mit unseren Rollstuhlfahrern im Hinterkopf entwickelt! Unser Algorithmus verwendet nur barrierefreie Bahnhöfe und ermöglicht längere Transferzeiten, um eine zugänglichere und komfortablere Reise für alle zu gewährleisten."
+    },
+    "mszBanner": {
+      "title": "MSZ (Mobilitätsservice-Zentrale)",
+      "text": "Beachten Sie, dass Sie zusätzliche Dienstleistungen des MSZ der DB in Anspruch nehmen müssen. Vereinbaren Sie einen Termin über <mszLink>DB MSZ</mszLink> oder rufen Sie einfach unter <mszPhoneNumber /> an."
+    },
+    "departureStation": "Abfahrtsbahnhof",
+    "arrivalStation": "Zielbahnhof",
+    "date": "Datum",
+    "time": "Uhrzeit",
+    "returnDate": "Rückreisedatum",
+    "returnTime": "Uhrzeit",
+    "class": "Wählen Sie eine Klassenkategorie",
+    "searchHeader1": "Buchen Sie Ihre",
+    "searchHeader2": "Abenteuer",
+    "results": {
+      "header1": "Barrierefreie",
+      "header2": "Verbindungen, die wir für Sie gefunden haben",
+      "headerNoSolution": "Wir konnten keine barrierefreien Verbindungen für Sie finden...",
+      "changeDetails": "Reisedetails ändern",
+      "card": {
+        "barrierFreeConnection": "Barrierefreie Verbindung",
+        "book": "Buchen über DB"
+      },
+      "filter": {
+        "boxLabel": "Verbindungsfilter",
+        "transferlabel": "Bevorzugte Anzahl der Umstiege",
+        "transferFilter_one": "{{count}} Umstieg",
+        "transferFilter_other": "{{count}} Umstiege"
+      },
+      "noResults": "Keine Ergebnisse gefunden",
+      "noResultsText": "Wir konnten keine barrierefreien Verbindungen für Ihre Suche finden. Bitte versuchen Sie es erneut mit anderen Suchparametern.",
+      "noResultsButton": "Neue Suche"
+    },
+    "trainReferralPage": {
+      "referralHeader": "{{arrival}} erwartet Sie!",
+      "thankYouText": "Vielen Dank, dass Sie Challenge verwenden! Ihre barrierefreie Zugverbindung von {{departure}} nach {{arrival}} beginnt am {{date}}",
+      "completeBooking": "Bitte schließen Sie Ihren Buchungsvorgang in dem geöffneten Tab ab.",
+      "hotelText": "Benötigen Sie ein Hotel in {{destination}}? Durchsuchen Sie unsere Auswahl an Hotels:",
+      "button": "Mehr finden"
+    },
+    "overview": {
+      "trending": "Trendige Zugreise-Articlebeiträge",
+      "recentSearches": {
+        "title": "Letzte Suchanfragen",
+        "noRecentSearches": "Keine aktuellen Suchanfragen, Ihre letzten Suchanfragen werden hier gespeichert"
+      }
+    }
+  },
+  "verification": {
+    "selectHotel": "Hotel auswählen",
+    "selectRestaurant": "Restaurant auswählen",
+    "selectAmenity": "Annehmlichkeit auswählen",
+    "imageUpload": "Bild hochladen",
+    "imageUploadInfo": "Bitte laden Sie ein Bild der Annehmlichkeit hoch.",
+    "verify": "Annehmlichkeit verifizieren"
+  },
+  "footer": {
+    "verificationMenu": "Verifizierung",
+    "restaurant": "Restaurant",
+    "hotel": "Hotel"
+  },
+  "error": {
+    "common": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut.",
+    "helpers": {
+      "emptySearch": "Bitte geben Sie eine Suchanfrage ein.",
+      "articlesCreation": {
+        "addBannerImage": "Bitte fügen Sie ein Bannerbild hinzu.",
+        "creationFailed": "Erstellung des Articlebeitrags fehlgeschlagen.",
+        "titleLength": "Max. 60 Zeichen.",
+        "imageSize": "Hochgeladene Dateigröße auf 1 MB begrenzt."
+      }
+    }
+  }
+}

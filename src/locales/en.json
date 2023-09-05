@@ -1,0 +1,532 @@
+{
+  "common": {
+    "continue": "Continue",
+    "verifiedUser": "Verified User",
+    "verifiedPartner": "Verified Partner",
+    "registration": "Registration",
+    "verified": "verified",
+    "edit": "Edit",
+    "signUp": "Sign Up",
+    "save": "Save",
+    "apply": "Apply",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "accessibilityAmenities": {
+      "elevatedWc": "Elevated WC",
+      "wcWithHandles": "WC with Handles",
+      "groundLevelShower": "Ground Level Shower",
+      "loweredSink": "Lowered Sink",
+      "emergencyCord": "Emergency Cord",
+      "grabBars": "Grab Bars",
+      "rampAccess": "Ramp Access",
+      "wheelchairAccessibleEntrance": "Wheelchair Accessible Entrance",
+      "accessibleParking": "Accessible Parking",
+      "automaticDoors": "Automatic Doors",
+      "brailleSignage": "Braille Signage",
+      "wideHallways": "Wide Hallways",
+      "handrails": "Handrails",
+      "accessibleElevator": "Accessible Elevator"
+    },
+    "applyFilter": "Apply Filter",
+    "reviews": {
+      "title": "Reviews",
+      "writeReview": "Write a Review",
+      "postReview": "Post Review",
+      "rating": "Rating*",
+      "ratingHint": "Caution: Default value is set to 5",
+      "comment": "Comment*",
+      "missingComment": "Please insert a comment!",
+      "ratingCount_one": "({{count}} Rating)",
+      "ratingCount_other": "({{count}} Ratings)"
+    },
+    "filters": {
+      "accessibilityTitle": "Barrier-Free Filters",
+      "otherTitle": "Other Filters",
+      "rating": {
+        "6": "Decent: 6",
+        "7": "Good: 7",
+        "8": "Very Good: 8",
+        "9": "Excellent: 9",
+        "10": "Perfect: 10"
+      }
+    },
+    "sorting": {
+      "label": "Sort by",
+      "rating": "Rating",
+      "name": "Name",
+      "stars": "Stars",
+      "title": "Title",
+      "author": "Author",
+      "createdAt": "Created at"
+    },
+    "noHighlights": "No highlights available yet",
+    "noReviews": "No reviews available yet",
+    "showMore": "Show more",
+    "showLess": "Show less",
+    "moreImages": "More images",
+    "city": {
+      "munich": "Munich",
+      "berlin": "Berlin",
+      "frankfurt": "Frankfurt",
+      "cologne": "Cologne",
+      "hamburg": "Hamburg",
+      "stuttgart": "Stuttgart"
+    },
+    "email": "Email",
+    "password": "Password",
+    "search": "Search",
+    "highlights": "Highlights"
+  },
+  "app": {
+    "pages": {
+      "explore": "Explore",
+      "train": "Train",
+      "hotel": "Hotel",
+      "restaurant": "Restaurant",
+      "article": "Article"
+    }
+  },
+  "login": {
+    "submit": "Login"
+  },
+  "registration": {
+    "firstName": "First Name",
+    "surname": "Surname",
+    "password": "Password",
+    "reEnterPassword": "Re-enter Password",
+    "verification": {
+      "title1": "Verification - Disability Card (optional)",
+      "title2": "Verification - Selfie (optional)",
+      "infoDisabilityCard": "Please upload a picture of your disability card so we can verify your profile, and build a trustworthy community together.",
+      "infoSelfie": "To ensure the authenticity of your disability card, please provide a selfie."
+    },
+    "submit": "Register",
+    "errors": {
+      "firstNameRequired": "You need to provide a first name",
+      "surnameRequired": "You need to provide a surname",
+      "emailEmpty": "You need to provide an email to create an account",
+      "emailNotValid": "This does not seem to ba a valid email",
+      "passwordRequired": "You need to specify a password",
+      "reEnterPasswordRequired": "Please reenter your chosen password",
+      "passwordMismatch": "The passwords do not match",
+      "passwordTooShort": "The password must be at least 8 Characters long",
+      "passwordNoDigit": "The password must at least contain one digit",
+      "passwordNoLetter": "The password must at least contain one letter"
+    }
+  },
+  "explore": {
+    "banner": {
+      "accessible": "Accessible",
+      "inclusive": "Inclusive",
+      "convenient": "Convenient",
+      "inspiring": "Inspiring"
+    },
+    "article": {
+      "title": "Trending Articleposts",
+      "subtitle": "Be inspired by other Challengers."
+    },
+    "partners": {
+      "title": "Our Partners",
+      "subtitle": "To offer you the best experience we teamed up with mayor players.",
+      "Deutsche Bahn": {
+        "description": "The Deutsche Bahn AG is Germans federal mobility and transport group. The trains from the DB address 5.400 train stations daily. However only 60% of them are fully accessible.",
+        "ourOffer": "Our train connection algorithm uses only barrier-free train stations and allows for longer transfer durations, ensuring a more accessible and comfortable journey for everyone.",
+        "offerTitle": "Barrier-free connection algorithm"
+      },
+      "Tripadvisor": {
+        "description": "Tripadvisor is a rating platform for restaurants. In germany it in includes testimonials to over 1 mio Restaurants.",
+        "ourOffer": "We personally verified the accessibility of the restaurants we included in our proposals to you. This way you can fully concentrate on that what matters: the moment.",
+        "offerTitle": "Verified Barrier-free restaurants"
+      }
+    },
+    "hotels": {
+      "title": "Top Hotels for you in",
+      "generic": {
+        "subtitle": "Exciting hotels with verified amenities"
+      },
+      "personalized": {
+        "subtitle": "Personalised picks according to your preferences."
+      }
+    },
+    "restaurants": {
+      "title": "Top Restaurants for you in {{city}}",
+      "generic": {
+        "subtitle": "Delicious Restaurants with verified amenities"
+      },
+      "personalized": {
+        "subtitle": "Personalised picks according to your preferences."
+      }
+    },
+    "destinations": {
+      "title": "Popular Destinations",
+      "subtitle1": "Fast ",
+      "subtitleHighlight": "accessible",
+      "subtitle2": "connections right at your fingertips"
+    },
+    "offering": {
+      "train": {
+        "text1": "Search and compare",
+        "highlight": "barrier-free",
+        "text2": "train connections.",
+        "button": "Find Train Connections"
+      },
+      "hotel": {
+        "text1": "Browse through a selection of",
+        "highlight": "accessible",
+        "text2": "hotels.",
+        "button": "Find Hotels"
+      },
+      "restaurant": {
+        "text1": "Find a culinary selection of",
+        "highlight": "accessible",
+        "text2": "restaurants.",
+        "button": "Find Restaurants"
+      },
+      "article": {
+        "text1": "Be inspired by",
+        "highlight": "authentic",
+        "text2": "article post of our community.",
+        "button": "Browse through Articleposts"
+      }
+    }
+  },
+  "hotel": {
+    "amenities": {
+      "swimmingPool": "Swimming Pool",
+      "bar": "Bar",
+      "parkingLots": "Parking Lots",
+      "fitnessCenter": "Fitness Center",
+      "wifi": "WiFi",
+      "restaurant": "Restaurant"
+    },
+    "verificationInfo": "All barrier-free features of our partners are thoroughly checked to ensure a swift and enjoyable stay for all of our customers.",
+    "searchLabel": "Hotel search",
+    "results": {
+      "filters": {
+        "accessibilityAmenities": "Accessibility of hotel / room",
+        "amenities": "Amenities",
+        "stars": "Stars",
+        "star_one": "{{count}} star",
+        "star_other": "{{count}} stars",
+        "rating": "Rating",
+        "verifiedOnly": "Verified only"
+      },
+      "header_one": "{{searchQuery}}: {{count}} hotel",
+      "header_other": "{{searchQuery}}: {{count}} hotels"
+    },
+    "details": {
+      "inquireNow": "Inquire now"
+    },
+    "overview": {
+      "title": "Looking for an accessible place to stay?",
+      "searchLabel": "Search for a hotel at your destination ...",
+      "popularDestinationsTitle": "Popular Destinations",
+      "popularDestinationsSubtitle": "Explore the top accessible hotels of the largest cities in Germany!"
+    }
+  },
+  "restaurant": {
+    "verificationInfo": "All barrier-free features of our partners are thoroughly checked to ensure a swift and enjoyable stay for all of our customers.",
+    "searchLabel": "Restaurant search",
+    "cuisine": {
+      "title": "Cuisine:",
+      "bavarian": "Bavarian",
+      "german": "German",
+      "italian": "Italian",
+      "greek": "Greek",
+      "indian": "Indian",
+      "chinese": "Chinese",
+      "thai": "Thai",
+      "french": "French",
+      "spanish": "Spanish",
+      "turkish": "Turkish",
+      "vietnamese": "Vietnamese",
+      "japanese": "Japanese",
+      "american": "American",
+      "mexican": "Mexican",
+      "african": "African",
+      "other": "Other",
+      "missing": "No cuisine defined yet"
+    },
+    "overview": {
+      "title": "Looking for an accessible place to eat?",
+      "searchLabel": "Search for a restaurant at your destination...",
+      "popularDestinationsTitle": "Popular Destinations",
+      "popularDestinationsSubtitle": "Explore the top accessible restaurants of the largest cities in Germany!"
+    },
+    "results": {
+      "filters": {
+        "accessibilityAmenities": "Accessibility of restaurant",
+        "rating": "Rating",
+        "cuisines": "Cuisines",
+        "verifiedOnly": "Verified only"
+      },
+      "header_one": "{{searchQuery}}: {{count}} restaurant",
+      "header_other": "{{searchQuery}}: {{count}} restaurants"
+    },
+    "details": {
+      "inquireNow": "Inquire now"
+    }
+  },
+  "profile": {
+    "profile": "Profile",
+    "login": "Login",
+    "logout": "Logout",
+    "register": "Register",
+    "searchHistory": {
+      "title": "Search History",
+      "subtitle": "Your most recent searches will be shown here"
+    },
+    "yourReviews": "Your Reviews",
+    "reviewsSubtitle": "Your most recent reviews will be shown here",
+    "verification": {
+      "title": "Verification",
+      "subtitle": "Here you can find more detail about our verification process"
+    },
+    "personalDetail": {
+      "title": "Traveler Details",
+      "alertTitleLoading": "Ups..",
+      "alertTextLoading": "Wait for your details to load",
+      "alertTitleError": "Loading",
+      "alertTextError": "Something went wrong. Try reloading the page",
+      "travelersDetail": {
+        "basicInfo": "Basic Info",
+        "firstName": "First Name",
+        "surname": "Surname",
+        "dob": "Date of Birth",
+        "dobNotSpecified": "Date of birth not specified",
+        "address": "Address",
+        "email": "Email",
+        "password": "Password",
+        "profilePicture": "Profile Picture"
+      },
+      "verification": {
+        "title": "Verification",
+        "disabilityCard": "Disability Card",
+        "verifiedAccount": "Verified Account",
+        "verifiedUser": "Verified User",
+        "notVerified": "Not verified yet"
+      }
+    },
+    "modal": {
+      "title": "EDIT",
+      "street": "Street",
+      "number": "House Number",
+      "zipCode": "Zip Code",
+      "city": "City",
+      "country": "Country",
+      "uploadBox": {
+        "subTitleDelete": "Thank you for verifying you account!",
+        "titleNew": "You are currently being verified.",
+        "subTitleNew": "You will be notified via email when the status changes.",
+        "titleNotVerified": "You are not a verified user yet.",
+        "subTitleNotVerified": "Upload a combined picture containing a disability card and a selfie to become a verified user.",
+        "learnMore": "LearnMore"
+      },
+      "errors": {
+        "emailEmpty": "Email cannot be empty",
+        "emailNotValid": "Email is not valid",
+        "firstNameEmpty": "First Name cannot be empty",
+        "surnameEmpty": "Surname cannot be empty",
+        "userNotOldEnough": "You must be older than 14",
+        "userBornTomorrow": "You cannot be born in the future",
+        "userTooOld": "You cannot be born before 1900",
+        "yearTooLong": "The year number you specified is too long",
+        "passwordShort": "Translated message",
+        "zipCodeNotNumber": "{{value}} is not a number",
+        "noStreetName": "{{value}} does not seem to be real street name",
+        "noCityName": "{{value}} does not seem to be the name of a real city",
+        "zipCodeNotCorrect": "{{value}} is too long for a zip code"
+      }
+    },
+    "preferences": {
+      "title": "Preferences",
+      "settings": {
+        "smallTitle": "Settings",
+        "bahnCard": " BahnCard",
+        "newsletter": "Newsletter",
+        "labelNewsletter": "Sign up to our Newsletter",
+        "notifications": "Notifications",
+        "notificationsLabel": "Receive emails with special travel deals according to personal preferences"
+      },
+      "amenities": {
+        "important": "Your important",
+        "verified": "verified",
+        "amenities": "barrier-free Amenities"
+      }
+    },
+    "delete": {
+      "button": "Delete Account",
+      "title": "Delete Account",
+      "text": "Are you sure you want to delete your account? This action cannot be undone. Your user data and all of your reviews, comments, articleposts will be deleted."
+    }
+  },
+  "article": {
+    "overview": {
+      "createPost": "Create Articlepost",
+      "slogan": "Browse the latest news ...",
+      "searchLabel": "Search...",
+      "trending": "Trending Articleposts",
+      "recent": "All the Latest"
+    },
+    "createPost": {
+      "title": "Title",
+      "destination": "Destination",
+      "text": "Text",
+      "topics": "Topics",
+      "bannerImage": {
+        "title": "Banner Image *",
+        "info": "Please upload a banner image."
+      },
+      "publish": "Publish"
+    },
+    "results": {
+      "header_one": "{{searchQuery}}: {{count}} articlepost",
+      "header_other": "{{searchQuery}}: {{count}} articleposts",
+      "verificationInfo": "All users are have the opportunity to verify themselves on our platform, thereby enhancing and emphasizing the authenticity of article posts, ratings, and comments. Verified users can be identified by their distinct tags.",
+      "filters": {
+        "topTitle": "Filters",
+        "topicsTitle": "Topics",
+        "destinationsTitle": "Destinations"
+      }
+    },
+    "details": {
+      "published": "Published",
+      "commentBoxPlaceholder": "What are your thoughts?",
+      "comments": "Comments",
+      "comment": "Comment",
+      "commentValidation": "Please insert a comment.",
+      "readingTime": "Reading Time: {{readingTime}} min",
+      "delete": {
+        "title": "Are you sure?",
+        "text": "You won't be able to revert this! This will permanently delete the articlepost and all of its comments."
+      },
+      "tags": {
+        "city": "City",
+        "trainTravel": "Train Travel",
+        "hotel": "Hotel",
+        "restaurant": "Restaurant",
+        "adventure": "Adventure",
+        "countrySide": "Country Side",
+        "hamburg": "Hamburg",
+        "munich": "Munich",
+        "berlin": "Berlin",
+        "frankfurt": "Frankfurt",
+        "stuttgart": "Stuttgart",
+        "freiburg": "Freiburg",
+        "dortmund": "Dortmund",
+        "leipzig": "Leipzig",
+        "other": "Other"
+      }
+    },
+    "topics": {
+      "trainTravel": "Train Travel",
+      "city": "City",
+      "hotel": "Hotel",
+      "restaurant": "Restaurant",
+      "adventure": "Adventure",
+      "countrySide": "Country Side",
+      "other": "Other"
+    },
+    "destinations": {
+      "hamburg": "Hamburg",
+      "munich": "Munich",
+      "berlin": "Berlin",
+      "frankfurt": "Frankfurt",
+      "stuttgart": "Stuttgart",
+      "freiburg": "Freiburg",
+      "dortmund": "Dortmund",
+      "leipzig": "Leipzig",
+      "other": "Other"
+    }
+  },
+  "train": {
+    "bahnCard": {
+      "noBahnCard": "no BahnCard",
+      "bahnCardSecond25": "BahnCard 25 2nd Class",
+      "bahnCardSecond50": "BahnCard 50 2nd Class",
+      "bahnCardSecond100": "BahnCard 100 2nd Class",
+      "bahnCardFirst25": "BahnCard 25 1st Class",
+      "bahnCardFirst50": "BahnCard 50 1st Class",
+      "bahnCardFirst100": "BahnCard 100 1st Class"
+    },
+    "travelClass": {
+      "first": "First Class",
+      "second": "Second Class"
+    },
+    "algorithmBanner": {
+      "title": "Barrier-free connection algorithm",
+      "text": "We've designed our train connection algorithm with our wheelchair users in mind! Our algorithm uses only barrier-free train stations and allows for longer transfer durations, ensuring a more accessible and comfortable journey for everyone"
+    },
+    "mszBanner": {
+      "title": "MSZ (Mobility Service Office)",
+      "text": "Be aware, that you need to arrange for additional services provided by the MSZ of DB. Schedule via <mszLink>DB MSZ</mszLink> or simply call <mszPhoneNumber />."
+    },
+    "departureStation": "Departure Station",
+    "arrivalStation": "Destination Station",
+    "date": "Date",
+    "time": "Time",
+    "returnDate": "Return Trip Date",
+    "returnTime": "Time",
+    "class": "Choose a class category",
+    "searchHeader1": "Book your",
+    "searchHeader2": "Challenge",
+    "results": {
+      "header1": "Accessible",
+      "header2": "connections we found for you",
+      "headerNoSolution": "We couldn't find accessible connections for you...",
+      "changeDetails": "Change Travel Details",
+      "card": {
+        "barrierFreeConnection": "barrier-free Connection",
+        "book": "Book via DB"
+      },
+      "filter": {
+        "boxLabel": "Connections Filter",
+        "transferlabel": "Preferred count of transfers",
+        "transferFilter_one": "{{count}} transfer",
+        "transferFilter_other": "{{count}} transfers"
+      },
+      "noResults": "No results found",
+      "noResultsText": "We couldn't find any barrier-free connections for your search. Please try again with different search parameters.",
+      "noResultsButton": "New Search"
+    },
+    "trainReferralPage": {
+      "referralHeader": "{{arrival}} awaits!",
+      "thankYouText": "Thank you for using Challenge! Your barrier-free train connection from {{departure}} to {{arrival}} starts on the {{date}}",
+      "completeBooking": "Please, complete your booking process in the opened tab.",
+      "hotelText": "In need of a hotel in {{destination}}? Browse our selection of hotels:",
+      "button": "Find More"
+    },
+    "overview": {
+      "trending": "Trending Train Travel Articleposts",
+      "recentSearches": {
+        "title": "Recent Searches",
+        "noRecentSearches": "No recent searches, your recent searches will be saved here"
+      }
+    }
+  },
+  "verification": {
+    "selectHotel": "Select Hotel",
+    "selectRestaurant": "Select Restaurant",
+    "selectAmenity": "Select Amenity",
+    "imageUpload": "Upload Image",
+    "imageUploadInfo": "Please upload a picture of the amenity.",
+    "verify": "Verify an Amenity"
+  },
+  "footer": {
+    "verificationMenu": "Verification",
+    "restaurant": "Restaurant",
+    "hotel": "Hotel"
+  },
+  "error": {
+    "common": "An error occurred. Please try it again.",
+    "helpers": {
+      "emptySearch": "Please enter a search query.",
+      "articlesCreation": {
+        "addBannerImage": "Please add a banner image.",
+        "creationFailed": "Creation of Article Post failed.",
+        "titleLength": "Max. 60 characters.",
+        "imageSize": "Upload size limited to 1 MB."
+      }
+    }
+  }
+}
